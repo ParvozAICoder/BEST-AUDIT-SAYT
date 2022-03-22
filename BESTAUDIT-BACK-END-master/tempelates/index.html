@@ -11,7 +11,8 @@
     <title>BEST AUDIT</title>
   </head>
   <body onscroll="myscroll()" >
-    <div id="snow"></div>
+    
+    <div id="result" style="display: none;">Salom</div>
     <div class="site__wrapper">
    <section class="fixed__box fixed-top" id="top__menu">
     <header class="header">
@@ -38,11 +39,18 @@
               <img src="../images/bottom.svg" class="dollar__status" alt="top" />
             </div>
           </div>
-          <a href="tel:+998946092277" class="tell__usbtn">
+          <div class="change__lang">
+           <a href="#" class="lang__style_ru">Ру</a>
+           <span class="lang__style">/</span>
+           <a href="#" class="lang__style_uz">Uz</a>
+         
+           
+         
+          </div>
+          <a href="tel:+998995252277" class="tell__usbtn">
             <img src="../images/phone.svg" class="phone__link" alt="phone" />
-            <div class="tell__us">( 94 ) 609-22-77</div>
+            <div class="tell__us">( 99 ) 525-22-77</div>
           </a>
-          <div></div>
           <button
           type="button"
           class="btn burger"
@@ -100,7 +108,7 @@
     <section class="menu__section" id="shadow__scroll">
       <div class="container menu__container">
         <div class="menues" id="menu__scroll">
-          <div class="menu__link"><a href="#superiority" class="menu">УСЛУГИ</a></div>
+          <div class="menu__link"><a href="#superiority" class="menu" id="forText">УСЛУГИ</a></div>
           <div class="menu__link"><a href="#us__cost" class="menu">ТАРИФЫ</a></div>
           <div class="menu__link">
             <a href="#best__uc" class="menu">ПРЕУМУШЕСТВА</a>
@@ -108,7 +116,7 @@
           <div class="menu__link">
             <a href="#us__client" class="menu">С КЕМ МЫ РАБОТАЕМ</a>
           </div>
-          <div class="menu__link"><a href="#comments__uc" class="menu">ОТЗЫВЫ</a></div>
+          <div class="menu__link"><a href="#comments__uc" class="menu">ДОВЕРИЯ</a></div>
           <div class="menu__link"><a href="#uc__position" class="menu">КОНТАКТЫ</a></div>
         </div>
       </div>
@@ -155,7 +163,12 @@
             </div>
           </div>
           <div class="forms">
-            <div class="main__title"  data-aos="fade-left" data-aos-duration="300" > <span id="hero" ></span> </div>
+            <div class="main__title"  >
+                  <div class="hero__anim">
+                        <div class="hero">БУХГАЛТЕРСКИЕ УСЛУГИ В ТАШКЕНТЕ</div> 
+                        <div class="hero hero__none">БУХГАЛТЕРСКИЕ УСЛУГИ В ТАШКЕНТЕ</div> 
+                 </div>
+            </div>
             <div class="main__subtitle" data-aos="fade-left" data-aos-duration="500"
             >
             Воспользуйтесь нашими качественными бухгалтерскими услугами!
@@ -194,7 +207,7 @@
                 </div>
                 <div class="sms__number">
                   <div class="sn__title">Мы будем звонят вам</div>
-                  <div class="sn__number">+998 (94) 609-22-77</div>
+                  <div class="sn__number">+998 (99) 525-22-77</div>
                 </div>
               </div>
               <div class="sms__border"></div>
@@ -241,8 +254,10 @@
       </div>
         <div class="service__cards">
           <div class="service__cardleft">
+
+
             <div class="service__card" data-aos="fade-right"   data-aos-delay="300">
-          <div class="serv__logo">
+               <div class="serv__logo">
             <svg width="50" height="50" viewBox="0 0 138 188" fill="none" xmlns="http://www.w3.org/2000/svg">
              <g class="g__two">
               <path d="M0 94V188H69H138V109.9V31.8L122.8 15.9L107.6 -2.80142e-06H53.8H0V94ZM103.2 22.2L103.5 37.5L117.3 37.8L131 38.1V109.5V181H69H7V94V7H55H102.9L103.2 22.2ZM119.5 21.5L128.2 31H119.1H110V21.5C110 16.3 110.2 12 110.4 12C110.6 12 114.7 16.3 119.5 21.5Z" fill="#005dc7"/>
@@ -255,12 +270,16 @@
               </svg>
               
                  
-          </div>
-          <div class="serv__text">
-            <div class="serv__name">Подготовка отчетности</div>
-            <di class="serv__text">Подготовка и своевременная подача всех видов налоговых отчётов</div>
+               </div>
+              <div class="serv__text">
+                  <div class="serv__name">Подготовка отчетности</div>
+                  <div class="serv__text">Подготовка и своевременная подача всех видов налоговых отчётов</div>
+               </div>
             </div>
-            <div class="service__card" data-aos="fade-right"   data-aos-delay="500">
+
+
+
+               <div class="service__card" data-aos="fade-right"   data-aos-delay="500">
           <div class="serv__logo">
             <svg width="45" height="45" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g class="g__two">
@@ -291,15 +310,18 @@
             </svg>
               
           </div>
-          <div class="serv__text">
-            <div class="serv__name">Ведение бухгалтерского учета</div>
-            <di class="serv__text">Бухгалтерский учет и контроль движения денежных средств</div>
-            </div>
+               <div class="serv__text">
+                 <div class="serv__name">Ведение бухгалтерского учета</div>
+                  <div class="serv__text">Бухгалтерский учет и контроль движения денежных средств</div>
+               </div>
+              </div>
           </div>
           <div class="serv__centimg">
            <img src="../images/Accountant.png" alt="rasm">
           </div>
           <div class="service__cardleft">
+
+
           <div class="service__card" data-aos="fade-left"   data-aos-delay="300">
            <div class="serv__logo">
             <svg width="45" height="45" viewBox="0 0 1374 1374" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -307,12 +329,16 @@
                     <path d="M371.489 1.86378C366.487 4.11975 363.545 7.1604 361.19 12.457C359.327 16.4785 359.327 21.0885 359.229 151.738C359.229 226.087 359.229 287.685 359.229 288.568C359.327 289.549 359.327 291.118 359.425 292.001C359.425 292.982 359.425 362.132 359.425 445.603C359.327 611.956 358.934 601.068 365.016 607.444C371.195 614.015 358.444 613.427 519.697 614.015L665.844 614.506L666.138 661.979C666.334 699.35 666.138 709.649 665.157 710.335C664.471 710.728 560.696 711.12 434.558 711.12C182.969 711.12 202.194 710.63 195.622 717.103C189.443 723.283 189.639 721.615 189.639 779.976C189.639 809.304 189.247 833.727 188.854 834.315C188.462 835.002 184.538 836.179 180.125 837.062C128.434 847.655 85.8644 888.164 72.9171 939.267C67.7186 959.473 67.1301 974.97 70.0727 1011.26C73.9961 1060.11 87.9242 1099.05 114.015 1134.36C116.467 1137.6 123.824 1145.64 130.493 1152.21L142.558 1164.28V1174.48C142.558 1180.16 142.166 1184.97 141.773 1185.27C141.381 1185.56 131.768 1187.52 120.391 1189.78C109.111 1191.94 97.5366 1194.49 94.594 1195.27C91.7496 1196.05 87.7281 1196.94 85.7663 1197.13C79.2927 1197.82 69.5822 1199.59 66.2473 1200.66C64.4818 1201.25 61.9316 1201.84 60.6565 1202.04C59.2833 1202.14 57.6158 1202.72 56.9292 1203.41C56.1445 1204 52.5154 1205.57 48.8862 1206.94C40.3528 1209.98 33.781 1214.4 25.8361 1222.24C18.7739 1229.21 16.0275 1232.44 16.0275 1233.92C16.0275 1234.5 15.1448 1235.78 14.0658 1236.86C10.1424 1240.78 3.37452 1257.95 1.60898 1268.25C0.431954 1275.21 0.137698 1354.86 1.31472 1358.78C2.68792 1363.58 7.69028 1369.18 12.5946 1371.33C16.3218 1373.1 24.9533 1373.2 209.648 1373.2C354.324 1373.2 403.661 1372.9 406.604 1372.02C408.664 1371.43 411.999 1369.47 413.862 1367.7C420.238 1361.72 420.14 1362.11 420.14 1314.54C420.14 1272.37 420.14 1271.29 417.786 1262.26C414.941 1251.08 411.803 1243.82 406.408 1235.98C396.795 1221.75 383.162 1210.57 368.155 1204.59C363.152 1202.63 347.949 1199.19 320.093 1193.7C297.729 1189.29 279.093 1185.17 278.701 1184.48C278.308 1183.89 277.916 1179.09 277.916 1173.79V1164.18L289.98 1152.21C306.753 1135.73 317.444 1120.82 327.939 1099.64C334.021 1087.38 335.59 1083.16 342.75 1058.93C351.97 1028.23 351.676 1030.19 352.167 996.058C352.559 966.633 352.461 963.298 349.42 946.035C344.81 919.454 326.468 887.968 304.301 868.743C297.533 862.76 280.466 851.775 271.736 847.557C262.32 843.143 247.706 838.337 238.682 836.67C235.151 836.081 232.012 835.002 231.619 834.414C230.737 833.04 230.541 756.141 231.423 753.885C232.012 752.414 251.923 752.316 447.996 752.316C614.643 752.316 664.275 752.61 665.157 753.493C666.04 754.376 666.334 764.675 666.334 793.904C666.334 815.581 665.942 833.727 665.55 834.414C665.157 835.002 662.019 836.081 658.488 836.67C649.66 838.239 634.947 843.045 625.629 847.459C609.739 854.913 598.95 862.662 585.414 876.296C565.699 896.207 553.242 920.729 547.357 951.331C545.493 961.336 545.199 965.75 545.199 988.702C545.297 1017.83 546.18 1025.09 553.536 1054.42C558.342 1073.74 562.07 1084.24 569.132 1099.05C579.627 1120.92 589.043 1134.06 606.208 1151.33L619.253 1164.37V1173.89C619.253 1179.09 618.861 1183.89 618.469 1184.58C618.076 1185.17 610.72 1187.13 602.088 1188.8C536.764 1201.65 528.819 1203.51 521.168 1208.22C511.457 1214.2 507.142 1217.54 501.355 1223.32C489.388 1235.49 482.62 1247.94 478.501 1265.3C476.441 1274.52 476.343 1355.64 478.403 1360.54C480.364 1365.15 484.386 1369.18 489.192 1371.33C493.115 1373.1 500.08 1373.2 686.932 1373.2C876.237 1373.2 880.749 1373.1 884.869 1371.24C887.125 1370.25 890.166 1368.1 891.539 1366.63C896.835 1360.94 896.835 1360.64 896.835 1314.44C896.835 1275.21 896.639 1270.99 894.874 1263.83C890.656 1246.47 884.182 1234.9 872.412 1223.03C865.056 1215.77 858.778 1211.26 852.01 1208.32C849.46 1207.24 847.106 1205.96 846.812 1205.57C846.518 1205.18 844.36 1204.29 841.908 1203.61C839.455 1202.92 836.219 1202.04 834.551 1201.55C830.235 1200.27 832.001 1200.57 788.451 1192.03C770.697 1188.5 755.788 1185.17 755.396 1184.58C755.004 1183.89 754.611 1178.99 754.611 1173.69V1163.88L764.812 1154.07C792.963 1126.71 807.283 1101.3 820.819 1054.52C838.965 991.448 831.314 930.832 799.927 889.341C787.568 873.059 767.068 856.483 748.138 847.459C739.604 843.437 721.262 837.454 713.416 836.179C710.963 835.787 708.707 834.904 708.315 834.315C707.923 833.727 707.53 815.581 707.53 793.904C707.53 764.675 707.825 754.376 708.707 753.493C709.59 752.61 759.221 752.316 925.869 752.316C1121.94 752.316 1141.85 752.414 1142.44 753.885C1143.23 755.847 1143.23 830.588 1142.44 833.433C1141.95 835.1 1140.68 835.689 1135.38 836.67C1127.04 838.141 1112.23 842.849 1103.01 847.067C1084.37 855.502 1067.31 868.743 1053.09 885.712C1040.53 900.621 1029.15 925.829 1024.44 949.076C1015.42 993.508 1024.94 1057.46 1047.2 1102.09C1057.21 1122.29 1066.43 1134.95 1083.79 1152.41L1095.95 1164.47V1173.99C1095.95 1179.18 1095.56 1183.89 1095.16 1184.58C1094.77 1185.17 1077.21 1189.09 1056.22 1193.21C1016.5 1200.96 1012.09 1202.04 1002.28 1206.26C984.132 1214.1 967.359 1231.66 959.708 1250.79C954.117 1264.91 953.725 1268.93 953.725 1314.54C953.725 1338.57 954.117 1357.5 954.706 1359.47C955.981 1364.08 962.553 1370.65 967.261 1372.02C970.203 1372.9 1019.15 1373.2 1164.22 1373.2C1348.91 1373.2 1357.54 1373.1 1361.27 1371.33C1366.17 1369.18 1371.18 1363.58 1372.55 1358.78C1373.33 1356.23 1373.53 1341.81 1373.33 1311.89C1372.94 1270.89 1372.84 1268.34 1370.78 1260.89C1366.47 1245.49 1359.7 1233.72 1349.01 1223.03C1339.69 1213.81 1330.08 1207.63 1318.21 1203.31C1315.66 1202.43 1297.51 1198.51 1278 1194.68C1258.57 1190.86 1240.13 1187.23 1237.19 1186.54L1231.8 1185.27L1231.5 1174.48L1231.21 1163.59L1238.27 1157.41C1258.48 1139.46 1278.39 1109.74 1288.69 1082.37C1290.06 1078.55 1292.51 1070.6 1293.98 1064.72C1310.46 1001.16 1307.91 946.329 1286.63 905.427C1278 888.753 1264.75 872.569 1253.67 865.016C1250.53 862.858 1247.98 860.7 1247.98 860.21C1247.98 859.622 1247.39 859.229 1246.71 859.229C1246.02 859.229 1242.39 857.169 1238.66 854.717C1227.09 846.969 1210.91 840.593 1194.03 837.16C1189.42 836.277 1185.4 835.002 1185.01 834.315C1184.62 833.727 1184.23 809.304 1184.23 779.976C1184.23 736.818 1183.93 726.127 1182.85 723.577C1181.19 719.752 1174.91 713.572 1171.18 712.199C1169.22 711.414 1098.3 711.12 939.503 711.12C813.659 711.12 709.983 710.826 709.1 710.532C707.727 710.041 707.53 704.843 707.53 662.568C707.53 628.336 707.825 614.898 708.609 614.408C709.198 614.015 779.525 613.819 864.86 613.917L1019.93 614.015L1024.25 611.759C1026.7 610.484 1029.84 608.032 1031.31 606.169C1033.96 602.736 1036.41 595.968 1065.84 510.535C1090.95 437.952 1119.2 356.443 1129.98 325.644C1134.01 314.07 1137.54 303.673 1137.64 302.594C1137.83 301.515 1139.11 297.494 1140.48 293.668C1141.85 289.843 1143.03 286.116 1143.03 285.429C1143.03 284.644 1143.62 283.369 1144.31 282.585C1145.09 281.702 1146.46 277.876 1147.44 274.149C1148.42 270.324 1149.8 266.4 1150.39 265.321C1151.07 264.243 1153.23 258.357 1155.29 252.178C1158.14 243.645 1158.82 240.015 1158.53 236.386C1157.84 229.815 1153.72 223.145 1148.62 220.398C1144.5 218.24 1144.11 218.24 1090.55 217.75L1036.61 217.26L1036.12 169.198L1035.63 121.136L1033.17 116.722C1030.43 111.916 1025.92 108.385 1020.33 106.913C1018.07 106.325 1003.16 105.933 983.445 105.933C965.201 105.933 875.06 105.933 783.056 105.933H615.82L588.356 57.6744C572.957 30.7009 559.323 7.94508 557.46 5.88529C555.498 4.02166 552.163 1.86378 550.005 1.17718C546.964 0.294414 525.189 0.000157118 460.747 0.000157118C379.729 0.000157118 375.315 0.0982426 371.489 1.86378ZM529.505 41.7846C530.388 42.1769 531.957 44.0406 533.036 46.0023C534.115 47.964 535.783 50.8085 536.764 52.4759C538.921 56.1051 565.797 102.99 568.739 108.385C577.175 123.686 586.591 139.183 588.749 141.538C590.122 143.107 592.672 145.069 594.242 145.951C596.988 147.521 613.074 147.619 795.317 148.109L993.45 148.6V182.93V217.26L744.803 217.75C498.412 218.24 496.156 218.24 492.821 220.202C486.348 224.027 484.288 227.951 475.46 253.551C470.85 267.087 463.984 286.9 460.159 297.69C456.431 308.479 452.704 319.072 452.018 321.23C448.585 331.333 426.417 395.579 420.63 411.959C418.669 417.648 414.157 430.596 410.626 440.895C403.367 462.081 402.288 464.925 401.307 464.925C400.719 464.925 399.836 247.274 400.425 243.939C400.523 243.546 400.523 197.937 400.523 142.715C400.523 62.9711 400.719 42.275 401.7 41.8827C403.563 41.098 527.543 41.098 529.505 41.7846ZM1107.43 260.515C1107.72 261.3 1107.23 263.654 1106.35 265.616C1104.68 269.441 1089.67 312.991 1088 318.778C1087.42 320.642 1085.94 324.957 1084.57 328.292C1083.3 331.627 1082.22 335.256 1082.22 336.335C1082.22 337.512 1081.82 339.18 1081.33 340.161C1079.86 342.613 1070.84 367.723 1060.15 398.718C1054.95 413.823 1047.59 435.009 1043.77 445.799C1040.04 456.588 1036.12 467.868 1035.14 470.811C1024.44 502.688 1000.51 570.662 999.531 571.544C998.256 572.82 977.364 572.918 601.892 572.82C470.85 572.82 411.214 572.525 410.822 571.839C410.233 570.956 413.666 560.363 424.652 528.681C425.829 525.15 429.262 515.243 432.204 506.612C435.245 497.98 440.149 483.856 443.19 475.224C446.231 466.593 449.762 456.392 451.037 452.665C452.312 448.839 454.862 441.385 456.726 435.99C460.551 425.299 476.735 378.512 483.405 358.993C488.407 344.476 503.709 300.436 506.946 291.314C508.123 287.783 510.967 279.74 513.223 273.266C515.381 266.891 517.735 261.104 518.323 260.319C519.304 259.142 563.541 258.946 813.169 258.946C1077.8 258.946 1106.84 259.142 1107.43 260.515ZM226.715 876.983C257.514 881.789 286.155 902.975 300.279 931.224C302.535 935.834 304.399 940.248 304.399 941.131C304.399 942.21 301.653 940.248 296.846 935.638C288.215 927.693 282.232 924.554 272.325 922.985C261.83 921.317 252.021 922.887 226.911 930.341C215.632 933.676 213.964 933.872 205.823 933.48C199.546 933.088 193.17 931.812 183.46 928.968C158.742 921.71 141.871 920.336 129.512 924.554C126.962 925.437 124.51 925.927 124.216 925.633C122.548 923.868 135.398 907.978 145.402 899.444C168.354 880.121 196.603 872.275 226.715 876.983ZM699.487 876.394C716.456 878.062 739.702 888.263 752.159 899.542C753.827 901.014 756.279 903.27 757.652 904.545C764.224 910.528 773.542 923.671 778.446 933.97C782.468 942.406 781.879 943.975 776.877 938.678C760.889 922.004 745.391 918.767 717.829 926.418C690.954 933.872 689.875 934.068 681.636 933.48C676.535 933.186 668.787 931.518 660.155 928.968C641.421 923.377 630.631 921.612 619.646 922.298C614.741 922.691 608.66 923.671 606.012 924.456C603.462 925.339 601.206 925.829 600.911 925.633C599.636 924.26 609.739 910.332 616.605 904.054C623.569 897.777 624.648 896.894 631.024 892.578C643.873 883.849 661.528 877.473 677.418 876.002C685.265 875.217 686.932 875.217 699.487 876.394ZM1182.56 877.473C1192.56 879.435 1209.43 885.124 1212.08 887.38C1213.16 888.459 1216.4 890.715 1219.05 892.382C1221.79 894.148 1225.52 896.894 1227.38 898.561C1229.25 900.229 1231.7 902.387 1232.78 903.27C1239.06 908.37 1249.85 923.475 1254.85 933.97C1258.67 942.111 1258.57 943.975 1254.55 939.659C1241.51 925.829 1228.36 920.827 1210.61 922.985C1205.9 923.475 1194.13 926.32 1184.32 929.262C1174.52 932.107 1165.1 934.363 1163.33 934.167C1161.67 934.068 1157.45 933.676 1154.11 933.382C1146.95 932.793 1143.62 932.009 1140.19 930.243C1138.81 929.458 1136.46 928.87 1134.99 928.87C1133.52 928.87 1132.14 928.478 1131.85 927.987C1130.77 926.32 1113.41 922.887 1103.4 922.298C1094.09 921.808 1089.18 922.494 1079.57 925.437C1076.04 926.516 1076.82 924.162 1082.71 916.315C1094.97 899.837 1113.21 886.693 1132.83 880.416C1149.6 875.119 1165.1 874.138 1182.56 877.473ZM165.216 967.123C188.952 974.284 193.857 975.264 207.785 975.362C221.615 975.461 226.029 974.676 246.038 968.595C252.316 966.633 259.378 964.867 261.536 964.573C265.459 964.083 265.851 964.279 270.265 968.791C275.071 973.695 279.878 981.542 283.703 990.664C284.978 993.606 286.744 997.824 287.724 999.982C292.531 1010.87 298.514 1049.71 297.239 1062.07C296.552 1068.35 287.136 1088.36 278.995 1100.52C259.672 1129.65 234.366 1146.62 210.237 1146.62C174.632 1146.62 135.986 1107.39 120.489 1055.5L118.331 1048.04L120.096 1028.43C123.627 989.291 125.687 981.64 135.398 970.654C139.713 965.848 144.323 963.2 148.541 963.2C150.405 963.2 157.957 964.965 165.216 967.123ZM640.048 966.731C678.595 978.109 688.011 978.403 719.301 969.477C727.638 967.025 736.269 964.867 738.525 964.475C742.351 963.985 742.645 964.181 747.353 969.477C760.693 984.386 770.599 1014.11 773.346 1047.46C774.719 1063.44 774.523 1064.33 767.363 1079.73C762.753 1089.44 752.355 1106.11 747.647 1111.41C746.372 1112.88 744.214 1115.43 742.841 1117.19C739.016 1122.29 722.734 1135.34 715.573 1139.07C695.172 1149.76 675.947 1149.27 656.035 1137.6C630.435 1122.59 606.306 1088.85 596.89 1054.71L594.928 1047.75L597.282 1023.42C598.557 1009.99 600.323 995.96 601.108 992.135C603.265 982.817 607.581 975.068 614.349 968.595C621.411 961.925 623.079 961.729 640.048 966.731ZM1117.33 966.731C1120.76 968.104 1124.2 968.987 1124.88 968.693C1125.57 968.496 1126.94 968.791 1127.92 969.477C1130.57 971.341 1146.17 974.774 1155.29 975.559C1166.37 976.441 1177.75 974.676 1197.37 968.987C1206.59 966.339 1215.32 964.181 1216.79 964.181C1222.19 964.181 1232.58 978.992 1238.96 995.96C1245.04 1012.14 1248.28 1027.94 1250.04 1049.61L1251.02 1062.85L1247.98 1070.51C1233.07 1108.17 1204.63 1137.99 1176.87 1145.15C1169.42 1147.01 1157.84 1147.01 1150.39 1145.15C1119.88 1137.3 1089.18 1102.58 1075.25 1060.01L1071.43 1048.34L1072.9 1032.55C1073.68 1023.82 1074.76 1012.24 1075.25 1006.85C1076.43 993.704 1077.71 988.506 1081.43 981.051C1084.67 974.578 1092.32 965.75 1096.15 964.181C1099.68 962.709 1110.47 963.985 1117.33 966.731ZM200.134 1187.91C208.079 1188.89 212.395 1188.89 220.242 1187.91C237.308 1185.76 236.23 1185.56 236.131 1191.25C236.033 1198.61 234.17 1203.71 229.952 1208.51C224.557 1214.69 218.182 1217.73 210.237 1217.73C195.72 1217.73 184.735 1206.65 184.735 1191.84V1185.66L187.481 1186.25C188.952 1186.54 194.641 1187.33 200.134 1187.91ZM676.928 1187.91C684.971 1188.89 688.894 1188.89 697.526 1187.82C714.396 1185.76 712.925 1185.36 712.729 1192.52C712.14 1206.55 700.468 1218.22 686.932 1218.22C674.279 1218.22 662.705 1207.43 660.842 1193.9C659.959 1187.23 660.744 1185.46 664.177 1186.15C665.648 1186.44 671.337 1187.33 676.928 1187.91ZM1154.11 1187.91C1161.67 1188.89 1165.88 1188.89 1174.22 1187.82C1191.19 1185.85 1189.62 1185.36 1189.33 1192.13C1188.25 1216.55 1160 1226.85 1143.91 1208.51C1140.09 1204.2 1138.62 1200.57 1137.44 1193.01C1136.65 1187.03 1137.44 1185.46 1141.36 1186.25C1143.03 1186.54 1148.82 1187.33 1154.11 1187.91ZM355.894 1245.59C362.564 1249.12 365.408 1251.47 369.724 1257.06C377.767 1267.26 378.944 1273.35 378.944 1305.62C378.944 1327.69 378.748 1330.92 377.375 1331.41C376.492 1331.71 301.162 1332 209.845 1332C82.0391 1332 43.5896 1331.71 42.7068 1330.82C41.2355 1329.35 41.0394 1286.39 42.5106 1277.07C43.8838 1268.44 48.69 1259.03 54.7713 1252.94C63.3048 1244.41 67.9148 1242.84 107.737 1234.99C127.158 1231.17 145.01 1227.83 147.462 1227.44L151.876 1226.85L157.173 1233.72C165.216 1244.21 174.828 1251.18 187.971 1256.18C194.543 1258.63 196.113 1258.83 209.746 1258.93C221.713 1258.93 225.538 1258.54 230.344 1257.06C243.194 1252.85 256.337 1243.72 263.301 1234.21C265.557 1231.07 268.009 1228.03 268.696 1227.44C269.579 1226.76 281.055 1228.62 309.99 1234.41C344.712 1241.27 350.793 1242.84 355.894 1245.59ZM633.966 1234.01C640.44 1242.55 648.091 1248.53 658.782 1253.53C668.885 1258.24 674.672 1259.42 686.932 1259.42C699.193 1259.42 704.98 1258.24 715.083 1253.53C725.676 1248.63 733.523 1242.45 739.997 1233.92C743.234 1229.7 745.98 1227.05 747.157 1227.05C749.511 1227.05 778.25 1232.35 792.865 1235.49C799.044 1236.76 805.027 1237.84 806.106 1237.74C807.185 1237.74 809.834 1238.23 811.991 1238.82C814.149 1239.41 817.877 1240.39 820.329 1240.88C831.216 1243.14 842.006 1250.49 847.989 1259.61C854.561 1269.62 854.953 1271.58 855.443 1302.48C855.64 1318.17 855.443 1330.63 854.953 1331.12C853.972 1332.1 522.345 1332.39 519.795 1331.41C518.422 1330.92 518.225 1327.88 518.225 1306.6C518.225 1293.36 518.618 1279.92 519.206 1276.68C521.364 1263.24 530.78 1250.69 542.747 1244.9C547.062 1242.84 554.223 1240.88 564.816 1238.82C573.447 1237.15 590.024 1233.82 601.598 1231.46C613.172 1229.11 624.06 1227.25 625.727 1227.15C628.277 1227.05 629.356 1227.93 633.966 1234.01ZM1107.92 1230.68C1114.68 1241.86 1129.49 1252.65 1143.52 1256.77C1152.05 1259.32 1154.11 1259.61 1164.81 1259.52C1185.99 1259.22 1203.84 1250.3 1216.79 1233.62L1221.99 1226.85L1226.4 1227.44C1228.85 1227.83 1246.71 1231.17 1266.13 1234.99C1294.77 1240.59 1302.62 1242.45 1307.81 1244.9C1320.07 1250.79 1329.2 1263.34 1331.35 1277.07C1332.83 1286.39 1332.63 1329.35 1331.16 1330.82C1330.28 1331.71 1291.83 1332 1164.02 1332C1072.7 1332 997.373 1331.71 996.49 1331.41C995.117 1330.92 994.921 1327.69 994.921 1306.11C994.921 1292.37 995.411 1278.74 996 1275.5C997.569 1267.17 1001.49 1259.71 1007.67 1253.43C1016.79 1244.21 1019.25 1243.33 1061.62 1234.8C1082.41 1230.68 1100.76 1227.15 1102.52 1227.15C1105.07 1227.05 1105.95 1227.64 1107.92 1230.68Z" fill="#005dc7"/>
               </g>
               </svg>
-              
            </div>
+
            <div class="serv__text">
-             <div class="serv__name"> Кадровый учет</div>
-             <di class="serv__text">Регистрация трудовых договоров и работа со всеми кадровыми документами</div>
+                 <div class="serv__name"> Кадровый учет</div>
+                <div class="serv__text">Регистрация трудовых договоров и работа со всеми кадровыми документами</div>
            </div>
+           </div>
+
+
+
           <div class="service__card" data-aos="fade-left"   data-aos-delay="500">
            <div class="serv__logo">
             <svg width="60" height="60" viewBox="0 0 908 604" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -328,11 +354,14 @@
               
            </div>
            <div class="serv__text">
-             <div class="serv__name">Консультации по бухгалтерскому учету</div>
-             <di class="serv__text">Предоставление информации о бухгалтерии</div>
+                <div class="serv__name">Консультации по бухгалтерскому учету</div>
+                <div class="serv__text">Предоставление информации о бухгалтерии</div>
            </div>
+
           </div>
+
         </div>
+
       </div>
     </section>
     <section class="definition" id="us__cost">
@@ -347,11 +376,11 @@
               <div class="dc__top" id="dc_1">Нулевой</div>
               <div class="dc__bottom">
                 <ul class="fc__ul">
-                  <li class="fc__li">Налоговая отчетность</li>
-                  <li class="fc__li">Кадровое делопроизводство</li>
-                  <li class="fc__li">Начисление заработной платы</li>
+                  <li class="fc__li"> Soliq hisobotlarini jo'natish.</li>
+                  <li class="fc__li">Kadrlar hujjatlari bilan ishlash.</li>
+                  <li class="fc__li"> Oylik maoshni o'tkazish.</li>
                 </ul>
-                <div class="dc__price">от <span class="dc__sum" id="dc_s1">800 000 сум</span></div>
+                <div class="dc__price">от <div class="dc__sum" id="dc_s1">1 100 000 сум</div></div>
                 <button  type="button" class="btn more button_slide" id="slide_down" onclick="myModal()" data-bs-toggle="modal"  data-bs-target="#exampleModal1">Подробнее</button>
                 
               </div>
@@ -361,16 +390,22 @@
             <div class="modal-dialog modal-dialog-centered">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                  <h5 class="modal-title" id="exampleModalLabel">Нулевой ta'rif</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  ...
+                  <ul>
+                    <li>Soliq hisoboti.</li>
+                    <li>Xodimga INPS ochish.</li>
+                    <li>Xodimni mehnat.uz dan rasmiylashtirish.</li>
+                    <li>Xodimga oylik maoshni to'lab berish.</li>
+                    <li>Daromadlarni hisoblash.</li>
+                    <li>Xodimga INN ochish.</li>
+                    <li>Elektron hujjat o'z vaqtida yuritish</li>
+                    <li>EXF ni olib borish.</li>
+                  </ul>
                 </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
+          
               </div>
             </div>
           </div>
@@ -380,11 +415,11 @@
               <div class="dc__top" id="dc_2">Cтарт</div>
               <div class="dc__bottom">
                 <ul class="fc__ul">
-                  <li class="fc__li">Налоговая отчетность</li>
-                  <li class="fc__li">Кадровое делопроизводство</li>
-                  <li class="fc__li">Начисление заработной платы</li>
+                  <li class="fc__li">Soliq hisobotini jo'natish</li>
+                  <li class="fc__li">Kadrlash hujjatlari bilan ishlash.</li>
+                  <li class="fc__li">Bank to'lov tizimi bilan ishlash.</li>
                 </ul>
-                <div class="dc__price">от <span class="dc__sum" id="dc_s2">800 000 сум</span></div>
+                <div class="dc__price">от <span class="dc__sum" id="dc_s2">1 200 000 сум</span></div>
                 <button type="button" class=" btn more button_slide" id="slide_down2" onclick="myModal2()" data-bs-toggle="modal"  data-bs-target="#exampleModal2">Подробнее</button>
                 
               </div>
@@ -394,16 +429,25 @@
             <div class="modal-dialog modal-dialog-centered">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                  <h5 class="modal-title" id="exampleModalLabel">Cтарт ta'rif</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  ...
+                  <ul>
+                    <li>Soliq xisobotini jo'natish.</li>
+                    <li>Statistika qo'mitasiga xisobot jo'natish.</li>
+                    <li>Kadrlar hujjatlari bilan ishlash.</li>
+                    <li>Hodimlarga INPS va INN ochish.</li>
+                    <li>IT park xisobotlari.</li>
+                    <li>"My soliq" bilan yozishmalar olib borish.</li>
+                    <li>Kansultatsiya berish.</li>
+                    <li>Daromadlarni hisoblash.</li>
+                    <li>Bank-to'lov tizimi bilan ishlash.</li>
+                    <li>Hodimlarga oylik maosh to'lash.</li>
+                    <li>Barcha turdagi shartnomalar tuzish.</li>
+                  </ul>
                 </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
+               
               </div>
             </div>
           </div>
@@ -413,11 +457,11 @@
               <div class="dc__top" id="dc_3">Зконом</div>
               <div class="dc__bottom">
                 <ul class="fc__ul">
-                  <li class="fc__li">Налоговая отчетность</li>
-                  <li class="fc__li">Кадровое делопроизводство</li>
-                  <li class="fc__li">Начисление заработной платы</li>
+                  <li class="fc__li">Soliq hisobotlarini jo'natish.</li>
+                  <li class="fc__li">Barcha turdagi hujjatlarni tayyorlash.</li>
+                  <li class="fc__li">Bank to'lov tizimi bilan ishlash.</li>
                 </ul>
-                <div class="dc__price">от <span class="dc__sum" id="dc_s3">800 000 сум</span></div>
+                <div class="dc__price">от <span class="dc__sum" id="dc_s3">2 000 000 сум</span></div>
                 <button type="button" class=" btn more button_slide" id="slide_down3" onclick="myModal3()" data-bs-toggle="modal"  data-bs-target="#exampleModal3">Подробнее</button>
                 
               </div>
@@ -427,16 +471,27 @@
             <div class="modal-dialog modal-dialog-centered">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                  <h5 class="modal-title" id="exampleModalLabel">Зконом</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  ...
+                  <ul>
+                    <li>Soliq xisobotini jo'natish.</li>
+                    <li>Statistika qo'mitasiga xisobot jo'natish.</li>
+                    <li>"My soliq" bilan yozishmalar olib borish.</li>
+                    <li>IT park xisobotlarini jo'natish.</li>
+                    <li>EXF ni olib borish</li>
+                    <li>Kardlar hujjatlari bilan ishlash.</li>
+                    <li>Barcha turdagi shartnomalar tuzish.</li>
+                    <li>Konsultatsiya berish.</li>
+                    <li>Daromadlar va harajatlarni hisoblash.</li>
+                    <li>Import-export bilan ishlash.</li>
+                    <li>Bank-to'lov tizimida barcha operatsiyalarni bajarish.</li>
+                    <li>EXF ni olib borish.</li>
+                    <li>Kardrlar soni cheklanmagan.</li>
+                  </ul>
                 </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
+                
               </div>
             </div>
           </div>
@@ -446,11 +501,11 @@
               <div class="dc__top" id="dc_4">Вип</div>
               <div class="dc__bottom">
                 <ul class="fc__ul">
-                  <li class="fc__li">Налоговая отчетность</li>
-                  <li class="fc__li">Кадровое делопроизводство</li>
-                  <li class="fc__li">Начисление заработной платы</li>
+                  <li class="fc__li">Soliq xisobotini jo'natish</li>
+                  <li class="fc__li">Mahhalliy va chet el tashkilotlari uchun hujjatlar tayyorlash.</li>
+                  <li class="fc__li">Bank to'lov tizimi bilan barcha operatsiyalarni bajarish.</li>
                 </ul>
-                <div class="dc__price">от <span class="dc__sum" id="dc_s4">800 000 сум</span></div>
+                <div class="dc__price">от <span class="dc__sum" id="dc_s4">3 500 000 сум</span></div>
                 <button  type="button" class=" btn more button_slide" id="slide_down4" onclick="myModal4()" data-bs-toggle="modal"  data-bs-target="#exampleModal4">Подробнее</button>
                 
               </div>
@@ -460,16 +515,30 @@
             <div class="modal-dialog modal-dialog-centered">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                  <h5 class="modal-title" id="exampleModalLabel">Вип ta'rif</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  ...
+                  <ul>
+                    <li>Barcha soliq xisobotlarini jo'natish.</li>
+                    <li>Moliyaviy xisobotlarni jo'natish.</li>
+                    <li>Davlat tashkilotlari va yuridik shaxslar bilan yozishlar olib borish.</li>
+                    <li>Barcha turdagi kadrlar hujjatlari bilan ishlash.</li>
+                    <li>Statistika qo'mitasiga xisobot jo'natish.</li>
+                    <li>Bank- to'lov tizimi bilan ishlash.</li>
+                    <li>Hodimlarga oylik hisoblash va uni to'lash.</li>
+                    <li>Barcha turdagi shartnomalar tuzish.</li>
+                    <li>Konsultatsiya berish.</li>
+                    <li>Daromadlar va harajatlarni hisoblash.</li>
+                    <li>Chet el tashkilotlari bilan yozishmalar olib borish.</li>
+                    <li>EXF ni olib borish.</li>
+                    <li>Biznesingiz rivojlanishiga ko'mak berish.</li>
+                    <li>Import-Export bilan shug'ullanish.</li>
+                    <li>Bojxona hujjatlarini tayyorlash va ular bilan ishlash.</li>
+                    <li>Ishchilar soni cheklanmagan.</li>
+                  </ul>
                 </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
+                
               </div>
             </div>
           </div>
@@ -501,7 +570,8 @@
                         <img src="../images/papka.svg" alt="rasm">
                     </div>
                     <div class="card__title">ЕКОНОМИСНЫЙ</div>
-                    <div class="card__subtitle">Вы не платите зарплату и расходы отдельного штатного подразделения бухгалтерии</div>
+                    <div class="card__subtitle">Siz alohida to'liq kunlik buxgalteriya bo'limining ish haqi va xarajatlarini "
+                      "to'lamaysiz</div>
                   </text>
             </div>
             <div class="why__card HOVER" data-aos="flip-right" data-aos-duration="800" data-aos-easing="ease-in-sine">
@@ -511,7 +581,8 @@
                 <img src="../images/card2.svg" alt="rasm">
               </div>
               <div class="card__title">НАДЕЖНОСТЬ</div>
-              <div class="card__subtitle">Вы экономите место в офисе за счет услуг удаленной бухгалтерии</div>
+              <div class="card__subtitle">"Masofaviy buxgalteriya xizmatlari yordamida ofisingizdagi joyni tejang "
+  </div>
             </text>
             </div>
             <div class="why__card HOVER" data-aos="flip-right" data-aos-duration="1100" data-aos-easing="ease-in-sine">
@@ -521,7 +592,7 @@
                 <img src="../images/papka3.svg" alt="rasm">
               </div>
               <div class="card__title">ПРОФЕССИОНАЛНЫЙ</div>
-              <div class="card__subtitle">Никаких ежемесячных отчислений в Соцфонд за бухгалтера</div>
+              <div class="card__subtitle">Buxgalter uchun Ijtimoiy jamg'armaga oylik ajratmalar yo'q</div>
             </text>
             </div>
             <div class="why__card HOVER" data-aos="flip-right" data-aos-duration="1400" data-aos-easing="ease-in-sine">
@@ -531,7 +602,8 @@
                   <img src="../images/papka4.svg" alt="rasm">
                 </div>
                 <div class="card__title">УДОБНЫЙ</div>
-                <div class="card__subtitle">Удаленная бухгалтерия сама проходит документальные проверки налоговых органов</div>
+                <div class="card__subtitle">Buxgalteriya hisobining o'zi soliq organlarining hujjatli "
+                  "tekshiruvidan o'tadi</div>
               </text>
             </div>
         </div>
@@ -687,43 +759,27 @@
       </div>
     </section>
     <section class="comment" id="comments__uc">
-      <div class="container">
-        <div class="comm__title"  data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-in-sine">Отзывы наших <span class="color"> клиентов</span></div>
-        <div class="comm__video">
-          <div class="left__video">
-            <div class="main__video">
-              <video id="always__changer" width="100%" height="100%" controls="controls">
-                <source src="../js-63.mp4" type="video/mp4">
-              </video>
+      <div class="cause__title"  data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-in-sine"> <span class="color">ПРИЧИН </span>ДОВЕРИТЬ СВОЮ КОМПАНИЮ НАМ</div>
+     <div class="main__cause">
+      <div class="container cause__container">
+        <div class="cause__content">
+          <div class="cause__text">
+           <div class="ct__one">
+            Мы комплексно походим к работе с клиентом, предлагая широкий спектр услуг, помогающих Вам сэкономить время для эффективного развития бизнеса.
+           </div>
+           <div class="ct__two ct__one">
+            Мы поддерживаем качество наших услуг на должном высоком уровне, что обеспечивается постоянным совершенствованием наших сотрудников.
+           </div>
+           <div class="ct__one">
+            Мы бережно относимся к благосостоянию наших клиентов, не заставляя их платить за услуги, которые не принесут им желаемого результата,
+           </div>
             </div>
-            <div class="comm__name">Видео отзыв от Сергея</div>
-            <div class="comm__company">Основатель компании ASTALAVISA</div>
-          </div>
-          <div class="right__video">
-            <div class="submain__video">
-             <div class="video__content"><img src="../images/video2.png" alt="rasm"></div>
-             <div class="vt__content">
-              <div class="comm__name">Видео отзыв от Сергея</div>
-              <div class="comm__company">Основатель компании ASTALAVISA</div>
-             </div>
-            </div>
-            <div class="submain__video">
-             <div class="video__content"><img src="../images/video2.png" alt="rasm"></div>
-             <div class="vt__content">
-              <div class="comm__name">Видео отзыв от Сергея</div>
-              <div class="comm__company">Основатель компании ASTALAVISA</div>
-             </div>
-            </div>
-            <div class="submain__video">
-             <div class="video__content"><img src="../images/video2.png" alt="rasm"></div>
-             <div class="vt__content">
-              <div class="comm__name">Видео отзыв от Сергея</div>
-              <div class="comm__company">Основатель компании ASTALAVISA</div>
-             </div>
-            </div>
+          <div class="cause__img">
+            <img class="ci__man"  src="../images/image-cause.png" alt="cause__img">
           </div>
         </div>
       </div>
+     </div>
     </section>
     <section class="geoposition" id="uc__position">
       <div class="container">
@@ -740,15 +796,15 @@
        
       </div>
       <div class="footer__adress">
-        <a href="#" class="flink__text"><img src="../images/femail-1.svg" class="fsc__img" alt="rasm"><div>bestaudit &commat; gmail.com</div></a>
-        <a href="tel:998946092277" class="flink__text"><img src="../images/fphone-1.svg" class="fsc__img" alt="rasm"><div>+998 94 609 22 77</div></a>
+        <a href="tel:+998946092277" class="flink__text"><img src="../images/femail-1.svg" class="fsc__img" alt="rasm"><div>+998 94 609 22 77</div></a>
+        <a href="#" class="flink__text"><img src="../images/fphone-1.svg" class="fsc__img" alt="rasm"><div>bestaudit &commat; gmail.com</div></a>
         <a href="#uc__position" class="flink__text"><img class="fsc__img" src="../images/footer-location-1.svg" alt="rasm"><div>Ташкент г. Чиланзарский р. Улица ... дом 11/11</div></a>
       </div>
       <div class="f__menues">
           <a href="#superiority" class="f__menu">Услуги</a>
           <a href="#us__cost" class="f__menu">Тарифы</a>
           <a href="#us__client" class="f__menu">С кем мы работаем</a>
-          <a href="#comments__uc" class="f__menu">Отзывы</a>
+          <a href="#comments__uc" class="f__menu">Доверия</a>
           <a href="#uc__position" class="f__menu">Контакты</a>
       </div>
         <div class="f__linkd">
@@ -757,13 +813,13 @@
           <div class="d_al_end"> 
             <div class="d_end__title">Наши социальные сети</div>
            <div class="us__social">
-            <a href="#"   class="flink__social">
+            <a href="https://instagram.com/azizbabaniyazov?utm_medium=copy_link"   class="flink__social">
               <img src="../images/intagram-1.svg" class="fsc__img" alt="rasm">
             </a>
             <a href="#" class="flink__social">
               <img src="../images/telegram-1.svg" class="fsc__img" alt="rasm">
             </a>
-            <a href="#" class="flink__social">
+            <a href="https://www.facebook.com/babaniyazov.aziz" class="flink__social">
               <img src="../images/facebook-1.svg" class="fsc__img"alt="rasm">
             </a>
            </div>
